@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_categories"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jg.mobilecmps121.Categories"
+    android:background="#FFFFFF">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:padding="50dp">
+
+        <Button
+            android:id="@+id/phoneButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Phone"
+            android:padding="20dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="phoneClick" />
+
+        <Button
+            android:id="@+id/laptopButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Laptop"
+            android:padding="20dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="laptopClick" />
+        <Button
+            android:id="@+id/cameraButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:padding="20dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="camClick" />
+        <Button
+            android:id="@+id/tabletButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Tablet"
+            android:onClick="tabletClick" />
+
+    </LinearLayout>
+
+</RelativeLayout>

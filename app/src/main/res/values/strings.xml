@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Green Electronics</string>
+    <string name="action_settings" />
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="payment_credit_card_number_hint">Card Number</string>
+    <string name="payment_expiration_hint"><font size="15"> MM/YY </font></string>
+    <string name="payment_credit_card_cvc_hint">CVC</string>
+    <string name="com.stripe.publishable_key" translatable="false">pk_test_VS4s4sQk0VSb0vE0K0ssFmX7</string>
+</resources>
